@@ -1,3 +1,7 @@
 language: python
 python:
   - "2.7"
+install:
+  - python -c 'print 1'
+script:
+  - python -c 'print 2'
